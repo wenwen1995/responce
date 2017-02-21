@@ -1,0 +1,175 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: '';
+}
+.clearfix:after {
+  clear: both;
+}
+.bg {
+  width: 8.95rem;
+  height: 5.03rem;
+  padding: .2rem .15rem;
+  background: #b9ab98;
+  position: relative;
+  overflow: hidden;
+}
+.left,.right{
+  float: left;
+}
+.pic{
+  width: 2.8rem;
+  height: 2.5rem;
+  background: #a2958a;
+  border-radius: .1rem;
+  margin-right: .13rem;
+  text-align: center;
+  border:1px solid #968a7b;
+  position: relative;
+}
+.photo{
+  border-radius: .1rem;
+  /*position: relative;*/
+}
+.pic span{
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.load{
+  width: 1.49rem;
+  height: 1.21rem;
+  margin-top: .5rem;
+  vertical-align: middle;
+}
+.imgThen{
+  width: 2.75rem;
+  height: 2.46rem;
+  border-radius: .1rem;
+}
+.mask,#imgPicker{
+  width: 100%;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  color: #E8E3E3;
+  font-size: .2rem;
+  background: rgba(100,92,86,0.8);
+  border-radius: 0 0 .1rem .1rem;
+  position: absolute;
+  bottom: 0;
+}
+
+/*反馈意见*/
+textarea{
+  width: 5.7rem;
+  height: 2.5rem;
+  font-weight: bold;
+  background: #e8e3e3;
+  float: left;
+  border-radius: .1rem;
+  -moz-box-shadow:2px 2px 2px #ccc7c7 inset; /* For Firefox3.6+ */
+  -webkit-box-shadow:2px 2px 2px #ccc7c7 inset; /* For Chrome5+, Safari5+ */
+  box-shadow:2px 2px 2px #ccc7c7 inset;
+  border:1px solid #968a7b;
+  color: #4b4b4b;
+  font-size: .2rem;
+  padding: .1rem .2rem;
+  position: relative;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #4b4b4b;  
+}
+::-moz-placeholder{
+  color: #4b4b4b;
+}
+textarea:-ms-input-placeholder{
+  color: #4b4b4b;
+}
+textarea::-webkit-input-placeholder {
+  color: #4b4b4b;
+}
+.contract p:nth-child(2),.contract p:last-child{
+  float: left;
+}
+.contract p:nth-child(2){
+  margin-right: .74rem;
+}
+.ok{
+  width: 5.8rem;
+  height: .82rem;
+  background: url(../i/ok.png) 0 0 no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 1rem;
+  left: 3.02rem;
+  -moz-box-shadow:0px 3px 5px #333333; 
+  -webkit-box-shadow:0px 3px 5px #333333; 
+  box-shadow:0px 3px 5px #333333;
+  display: none;
+}
+/*联系*/
+.contract{
+  margin-top: .1rem;
+}
+.contract p{
+   color:#b23a0b;
+   font-size: .2rem;
+   font-weight: bold;
+}
+.contract span{
+   color: #5A1C04;
+}
+/*按钮*/
+.btn{
+  width: 1.9rem;
+  height: .52rem;
+  background:url(../i/btn.png) 0 0 no-repeat;
+  background-size: cover;
+  float: right;
+  margin-top: -.45rem;
+}
+.scale{
+  -webkit-transform:scale(1.1) ; 
+  -moz-transform:scale(1.1) ; 
+  -o-transform:scale(1.1) ; 
+  transform: scale(1.1);
+}
+/*分割线*/
+.line{
+  border:.01rem solid #907766;
+  margin-top: .15rem;
+}
+/*底部*/
+.bottom{
+  width: 100%;
+  height: 1.25rem;
+  background: #978170;
+  margin-top: .1rem;
+  font-size:.2rem;
+  color: #5A240F;
+  font-weight: bold;
+  overflow-y:auto;
+}
+/*图片上传反馈信息样式*/
+.error{
+    font-size: .2rem;
+    color: #fff;
+    border-radius: .1rem .1rem 0 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background: red;
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+}
+

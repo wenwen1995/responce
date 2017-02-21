@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  	<title>我的反馈</title>
+  	<link rel="stylesheet" type="text/css" href="../c/reset.css">
+    <link rel="stylesheet" type="text/css" href="../c/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="../c/index.css">
+</head>
+<body>
+  <div class="wrap">
+    <!-- 背景 -->
+  	<div class="bg">
+        <div class="top clearfix">
+            <!-- 左侧图片 -->
+            <div class="left">
+                <div id="uploader-demo" class="pic">
+                    <img src="../i/img.png" class="load">
+                    <!--用来存放item-->
+                    <div id="fileList" class="uploader-list"></div>
+                    <div id="imgPicker" class="mask">提供截图反馈</div>
+                </div>
+            </div>
+            <!-- 右侧反馈 -->
+            <textarea class="textarea" placeholder="填写您的宝贵意见，我们会在2日内回复。"></textarea>
+            <div class="ok"></div>
+        </div>
+        <div class="center clearfix">
+            <!-- 联系 -->
+            <div class="contract clearfix">
+                <p><span>联系QQ：</span>3189765689</p>
+                <p><span>微信客服：</span>wo6fly</p>
+                <p><span>微信公众号：</span>gfmj666</p>
+            </div>
+            <!-- 提交反馈按钮 -->
+            <div class="btn"></div>
+        </div>
+        <!-- 分割线 -->
+        <div class="line"></div>
+        <!-- 底部 -->
+        <div class="bottom">
+            <p class="sss">您的反馈：</p>
+        </div>
+    </div>
+   </div>
+
+  <script>
+    //点击提交地址
+    window.oPageConfig = { 
+      oUrl:{
+        getInfo:'/getInfo'  
+      }
+    }
+  </script>
+
+
+    <!-- 引入的插件 -->
+  	<script src="../j/lib/jquery-3.1.1.min.js"></script>
+    <script src="../j/lib/webuploader.js"></script>
+    <!-- 测试文件start -->
+    <script src="../j/test/index.js"></script>
+    <!-- 测试文件end -->
+
+  	<script src="../j/ViewAdaptor.js"></script>
+  	<script src="../j/index.js"></script>
+
+</body>
+</html>
