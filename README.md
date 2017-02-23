@@ -30,6 +30,7 @@ html:
      var thumbnailHeight =  $('.pic').height();
 
 最终的javascript为:
+
        // 初始化Web Uploader
         var $list = $('#fileList');
         //这里获得
