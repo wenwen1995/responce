@@ -3,7 +3,7 @@
 此页面涉及的知识点在于使用插件webuploader.js实现文件/图片的上传，压缩，并且预览出来
 
 最终效果图如下：
-![](http://p1.bpimg.com/567571/01e68fd24a56f2b4.png)
+![](https://wrapper-1258672812.cos.ap-chengdu.myqcloud.com/567571/01e68fd24a56f2b4.png)
 
 其中截图反馈那边涉及到图片的上传，并显示，如果中间上传错误会报错，反之成功。
 
@@ -22,7 +22,7 @@ html:
     </div>
 
 最后需要把选择的图片缩小，放在如下所示的红框内，所以要获得该div的宽度和高度
-![](http://p1.bpimg.com/567571/be2faff9955f98d8.png)
+![](https://wrapper-1258672812.cos.ap-chengdu.myqcloud.com/567571/be2faff9955f98d8.png)
  
 代码为：
  
@@ -125,7 +125,7 @@ html:
         });
 
 这里遇到问题，上传图片后虽然能显示，但是报错如下图：
-![](http://p1.bpimg.com/567571/178060ac7b6956c2.png)
+![](https://wrapper-1258672812.cos.ap-chengdu.myqcloud.com/567571/178060ac7b6956c2.png)
 
 **即跨域报错！**
 找了好久的错误，后来跟php后端人员讨论查找到问题所在，原来是本地没有配置php环境，不支持访问php文件，把相关的页面放在php人员的电脑上，就好了。
